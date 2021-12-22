@@ -12,46 +12,36 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-header {
-  background-color: rgba(255, 255, 255, 0.1);
+/*HEADER*/
+.contenedor{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
   overflow: hidden;
-  position: sticky;
-  top: 0;
+  padding: 60px 0;
 }
-
-nav {
-  display: grid;
-  grid-template-columns: 4fr 4fr;
-  align-items: center;
-}
-
-nav img {
-  width: 70px;
-  margin-left: 55px;
-}
-
-nav ul {
-  list-style: none;
+.menu-navegacion{
+  padding: 0;
   display: flex;
+  justify-content: space-between;
+  height: 70px;
 }
-
-nav ul li {
-  padding: 20px;
-  transition: all ease 0.3s;
+.logo{
+  height: 70px;
 }
-
-nav ul li a {
+.logo img{
+  display: block;
+  height: 100%;
+}
+.enlaces li{
+  list-style: none;
+  display: inline-block;
+}
+.enlaces a{
   text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-  font-size: 20px;
+  color: white;
 }
-
-nav ul li:hover {
-  transform: scale(1.1);
-}
-
+/*FOOTER*/
 .footer {
   display: grid;
   grid-auto-rows: auto;
